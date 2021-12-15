@@ -1,0 +1,467 @@
+([
+(
+source: Cargo(()),
+name: "bpf-linker\\",
+flags: ["+nightly"],
+),
+(
+source: Cargo(()),
+name: "cargo-generate\\",
+flags: ["--git"],
+),
+(
+source: Cargo(()),
+name: "http://github.com/cargo-generate/cargo-generate",
+flags: ["--git"],
+),
+(
+source: Pip(()),
+name: "cmake",
+flags: ["--user"],
+),
+(
+source: Cargo(()),
+name: "bandwhich\\",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "bat",
+flags: [],
+),
+(
+source: Apt(()),
+name: "bison",
+flags: [],
+),
+(
+source: Apt(()),
+name: "bogl-bterm",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "bottom",
+flags: [],
+),
+(
+source: Apt(()),
+name: "bpfcc-tools",
+flags: [],
+),
+(
+source: Apt(()),
+name: "bpftool",
+flags: [],
+),
+(
+source: Apt(()),
+name: "bpftool-prog",
+flags: [],
+),
+(
+source: Apt(()),
+name: "bterm",
+flags: [],
+),
+(
+source: Apt(()),
+name: "build-essential",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "canop",
+flags: [],
+),
+(
+source: Apt(()),
+name: "clang",
+flags: [],
+),
+(
+source: Apt(()),
+name: "cmake",
+flags: [],
+),
+(
+source: Apt(()),
+name: "default-jdk",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "du-dust",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "dust",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "emplace",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "emplace.log\\",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "emplace\\",
+flags: [],
+),
+(
+source: Apt(()),
+name: "exa",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "exa",
+flags: [],
+),
+(
+source: Apt(()),
+name: "fancontrol",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "fd",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "fd-find",
+flags: [],
+),
+(
+source: Apt(()),
+name: "font-manager",
+flags: [],
+),
+(
+source: Apt(()),
+name: "fonts-firacode",
+flags: [],
+),
+(
+source: Apt(()),
+name: "fonts-hack-ttf",
+flags: [],
+),
+(
+source: Apt(()),
+name: "gcc-multilib\\",
+flags: [],
+),
+(
+source: Apt(()),
+name: "gdb",
+flags: [],
+),
+(
+source: Apt(()),
+name: "gdp",
+flags: [],
+),
+(
+source: Apt(()),
+name: "gh",
+flags: [],
+),
+(
+source: Snap(()),
+name: "gh",
+flags: [],
+),
+(
+source: Apt(()),
+name: "git",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "git-delta",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "gitui",
+flags: [],
+),
+(
+source: Apt(()),
+name: "glow",
+flags: [],
+),
+(
+source: Snap(()),
+name: "glow",
+flags: [],
+),
+(
+source: Apt(()),
+name: "golang",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "hx",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "kcov",
+flags: [],
+),
+(
+source: Apt(()),
+name: "libelf-dev",
+flags: [],
+),
+(
+source: Apt(()),
+name: "libevent-dev",
+flags: [],
+),
+(
+source: Apt(()),
+name: "libssl-dev",
+flags: [],
+),
+(
+source: Apt(()),
+name: "libudev-dev",
+flags: [],
+),
+(
+source: Apt(()),
+name: "linux-headers-$(uname",
+flags: [],
+),
+(
+source: Apt(()),
+name: "linux-headers-5.13.0-19",
+flags: [],
+),
+(
+source: Apt(()),
+name: "linux-headers-5.13.0-21-generic",
+flags: [],
+),
+(
+source: Apt(()),
+name: "linux-tools-common",
+flags: [],
+),
+(
+source: Apt(()),
+name: "linux-tools-generic",
+flags: [],
+),
+(
+source: Apt(()),
+name: "llvm",
+flags: [],
+),
+(
+source: Apt(()),
+name: "lm-sensors",
+flags: [],
+),
+(
+source: Apt(()),
+name: "lm-sensors\\",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "lsd",
+flags: [],
+),
+(
+source: Apt(()),
+name: "make",
+flags: [],
+),
+(
+source: Apt(()),
+name: "mc",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "meld",
+flags: [],
+),
+(
+source: Apt(()),
+name: "meld",
+flags: [],
+),
+(
+source: Apt(()),
+name: "memtester",
+flags: [],
+),
+(
+source: Apt(()),
+name: "mono-complete",
+flags: [],
+),
+(
+source: Apt(()),
+name: "ncurses-dev",
+flags: [],
+),
+(
+source: Apt(()),
+name: "nmap",
+flags: [],
+),
+(
+source: Apt(()),
+name: "nodejs",
+flags: [],
+),
+(
+source: Apt(()),
+name: "npm\\",
+flags: [],
+),
+(
+source: Apt(()),
+name: "pkg-config",
+flags: [],
+),
+(
+source: Apt(()),
+name: "powercap",
+flags: [],
+),
+(
+source: Apt(()),
+name: "powercap-utils\\",
+flags: [],
+),
+(
+source: Apt(()),
+name: "python3-dev\\",
+flags: [],
+),
+(
+source: Apt(()),
+name: "python3-pip",
+flags: [],
+),
+(
+source: Apt(()),
+name: "python3-pip\\",
+flags: [],
+),
+(
+source: Apt(()),
+name: "ruby",
+flags: [],
+),
+(
+source: Apt(()),
+name: "ruby-dev",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "scaphandre",
+flags: [],
+),
+(
+source: Apt(()),
+name: "setfacl",
+flags: [],
+),
+(
+source: Apt(()),
+name: "strace",
+flags: [],
+),
+(
+source: Apt(()),
+name: "tar",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "tealdeer\\",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "termimad",
+flags: [],
+),
+(
+source: Apt(()),
+name: "thinkfan",
+flags: [],
+),
+(
+source: Apt(()),
+name: "tmux",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "topgrade",
+flags: [],
+),
+(
+source: Apt(()),
+name: "travis",
+flags: [],
+),
+(
+source: Gem(()),
+name: "travis",
+flags: [],
+),
+(
+source: Apt(()),
+name: "vagrant",
+flags: [],
+),
+(
+source: Apt(()),
+name: "vim-nox",
+flags: [],
+),
+(
+source: Apt(()),
+name: "vpftool",
+flags: [],
+),
+(
+source: Npm(()),
+name: "yarn",
+flags: [],
+),
+(
+source: Npm(()),
+name: "yarn\\",
+flags: [],
+),
+(
+source: Cargo(()),
+name: "ytop",
+flags: [],
+),
+(
+source: Apt(()),
+name: "zlib1g-dev",
+flags: [],
+),
+])
