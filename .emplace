@@ -335,6 +335,11 @@ name: "npm\\",
 flags: [],
 ),
 (
+source: Cargo(()),
+name: "nu",
+flags: [],
+),
+(
 source: Apt(()),
 name: "pkg-config",
 flags: [],
