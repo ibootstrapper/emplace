@@ -21,7 +21,17 @@ flags: ["--user"],
 ),
 (
 source: Npm(()),
+name: "amazon-cognito-identity-js",
+flags: [],
+),
+(
+source: Npm(()),
 name: "aws-amplify",
+flags: [],
+),
+(
+source: Npm(()),
+name: "aws-amplify-react-native",
 flags: [],
 ),
 (
