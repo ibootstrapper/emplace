@@ -20,6 +20,11 @@ name: "cmake",
 flags: ["--user"],
 ),
 (
+source: Npm(()),
+name: "aws-amplify",
+flags: [],
+),
+(
 source: Apt(()),
 name: "awscli",
 flags: [],
@@ -437,6 +442,11 @@ flags: [],
 (
 source: Gem(()),
 name: "travis",
+flags: [],
+),
+(
+source: Npm(()),
+name: "typescript",
 flags: [],
 ),
 (
