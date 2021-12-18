@@ -20,6 +20,11 @@ name: "cmake",
 flags: ["--user"],
 ),
 (
+source: Apt(()),
+name: "awscli",
+flags: [],
+),
+(
 source: Cargo(()),
 name: "bandwhich\\",
 flags: [],
