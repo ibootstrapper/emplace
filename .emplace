@@ -345,6 +345,11 @@ name: "nmap",
 flags: [],
 ),
 (
+source: Snap(()),
+name: "node",
+flags: [],
+),
+(
 source: Apt(()),
 name: "nodejs",
 flags: [],
