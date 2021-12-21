@@ -406,6 +406,11 @@ flags: [],
 ),
 (
 source: Npm(()),
+name: "react-coming-soon",
+flags: [],
+),
+(
+source: Npm(()),
 name: "react-countdown",
 flags: [],
 ),
