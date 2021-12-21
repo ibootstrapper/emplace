@@ -486,6 +486,11 @@ flags: [],
 ),
 (
 source: Npm(()),
+name: "ts-migrate",
+flags: [],
+),
+(
+source: Npm(()),
 name: "typescript",
 flags: [],
 ),
