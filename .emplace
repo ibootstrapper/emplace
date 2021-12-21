@@ -105,6 +105,11 @@ name: "cmake",
 flags: [],
 ),
 (
+source: Snap(()),
+name: "core",
+flags: [],
+),
+(
 source: Apt(()),
 name: "default-jdk",
 flags: [],
