@@ -405,6 +405,11 @@ name: "python3-pip\\",
 flags: [],
 ),
 (
+source: Npm(()),
+name: "react-date-countdown-timer",
+flags: [],
+),
+(
 source: Apt(()),
 name: "ruby",
 flags: [],
