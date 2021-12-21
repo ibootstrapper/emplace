@@ -95,6 +95,11 @@ name: "canop",
 flags: [],
 ),
 (
+source: Snap(()),
+name: "certbot",
+flags: [],
+),
+(
 source: Apt(()),
 name: "clang",
 flags: [],
