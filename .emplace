@@ -481,6 +481,11 @@ flags: [],
 ),
 (
 source: Npm(()),
+name: "workbox-webpack-plugin",
+flags: [],
+),
+(
+source: Npm(()),
 name: "yarn",
 flags: [],
 ),
