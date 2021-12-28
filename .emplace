@@ -25,6 +25,11 @@ name: "amazon-cognito-identity-js",
 flags: [],
 ),
 (
+source: Apt(()),
+name: "aptitude",
+flags: [],
+),
+(
 source: Npm(()),
 name: "aws-amplify",
 flags: [],
