@@ -386,6 +386,11 @@ flags: [],
 ),
 (
 source: Apt(()),
+name: "postgresql",
+flags: [],
+),
+(
+source: Apt(()),
 name: "postgresql-12",
 flags: [],
 ),
