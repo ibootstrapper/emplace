@@ -266,6 +266,11 @@ flags: [],
 ),
 (
 source: Apt(()),
+name: "libicu66",
+flags: [],
+),
+(
+source: Apt(()),
 name: "libldap",
 flags: [],
 ),
