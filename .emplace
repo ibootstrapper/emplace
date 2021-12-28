@@ -171,6 +171,11 @@ flags: [],
 ),
 (
 source: Apt(()),
+name: "fish",
+flags: [],
+),
+(
+source: Apt(()),
 name: "font-manager",
 flags: [],
 ),
